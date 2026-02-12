@@ -1,0 +1,22 @@
+[project]
+name = "todo-backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Prathap kumar",email = "prathapkumarchopparapu446@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=6.0.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=26.1.0,<27.0.0)",
+    "pytest (>=9.0.2,<10.0.0)"
+]
