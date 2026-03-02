@@ -1,0 +1,12 @@
+todo.txt
+
+
+
+.cache/
+
+
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
